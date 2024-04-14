@@ -1,0 +1,49 @@
+* {
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 998;
+}
+
+.hidden {
+    display:none;
+}
+
+nav {
+    background-color: black;
+    width: 300px;
+    height: 100vh;  
+    position: absolute;
+    top: 0;
+    right: -300px;
+    z-index: 999;
+    transition: right 0.5s ease;
+}
+
+.shownav {
+    right: 0;
+}
