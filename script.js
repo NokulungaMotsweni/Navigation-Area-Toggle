@@ -9,7 +9,7 @@ function toggleNavigation() {
         var navElement = document.querySelector("nav");
         navElement.classList.toggle("shownav");
         toggleIcons();
-    }
+}
     
     // Attach click event listeners to menu and close icons
     document.getElementById("menu").addEventListener("click", toggleNavigation);
